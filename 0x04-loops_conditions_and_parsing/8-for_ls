@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# display content of current directory in a list format with *- removed
+
+dir_content=$(ls)
+
+for file in $dir_content
+do
+	echo "$file" | cut -d '-' -f 2-
+done
