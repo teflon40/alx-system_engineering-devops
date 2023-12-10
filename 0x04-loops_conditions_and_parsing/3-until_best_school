@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Display 'Best School' 10 times using until
+
+str='Best School'
+count=10
+
+until [ $count -eq 0 ]
+do
+	echo "$str"
+	count=$((count - 1))
+done
