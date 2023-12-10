@@ -1,0 +1,9 @@
+#!/bin/bash
+# script that displays 'Best School' 10 times
+
+str='Best School'
+
+for (( a = 0; a < 10; a++ ))
+do
+	echo "${str}"
+done
