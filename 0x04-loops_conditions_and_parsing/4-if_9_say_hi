@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# display 'Best Schoo' and 'hi'
+
+str='Best School'
+count=0
+
+while echo "$str"
+	[ $count -lt 9 ]
+do
+	if [ $count -eq 8 ]; then
+		echo "Hi"
+	fi
+	count=$((count + 1))
+done
